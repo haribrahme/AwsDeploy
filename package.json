@@ -1,0 +1,24 @@
+{
+  "name": "angularui",
+  "version": "1.0.0",
+  "description": "\"# AwsDeploy\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haribrahme/AwsDeploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haribrahme/AwsDeploy/issues"
+  },
+  "homepage": "https://github.com/haribrahme/AwsDeploy#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
