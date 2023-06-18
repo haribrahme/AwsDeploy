@@ -17,7 +17,10 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - echo runs some test
-      - grep -Fq "deployed" index.html
+      - mkdir dist
+      - cp -r src/* dist/
+      - npm install
+      - grep -Fq "deployed" dist/index.html
     finally:
       - echo This always runs even if the install command fails
   post_build:
